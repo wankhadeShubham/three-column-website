@@ -12,7 +12,7 @@ body{
     width: 1000px;
     margin: auto auto;
     margin-bottom:10px ;
-   
+
 }
 nav{
     background-color: #0893e3;
@@ -50,7 +50,7 @@ nav > a{
 
 #main-banner{
     height: 400px;
-   
+
 }
 
 
@@ -131,44 +131,44 @@ clear: both;
     object-fit: cover;
     border: #fff solid 2px;
     margin-bottom: 20px;
-     
+
 }
 .customer>p{
     text-align: center;
-   
+
     width: 250px;
     margin: auto;
     font-size: 17px;
     margin-bottom: 20px;
 }
 .customer>a{
-   
+
     padding: 6px 18px;
     color: #fff;
     font-size: 17px;
     border:solid #fff 1px; 
     text-decoration: none;
-    
-    
-    
+
+
+
 }
 
 .customer>a:hover{
     background-color: black;
     border:solid rgb(0, 0, 0) 1px;
-    
+
 }
 
 footer{
     background-color: black;
     text-align: center;
     padding: 8px;
-   
+
 }
 footer>small{
     color: #fff;
     font-size: 17px;
-    
+
 }
 footer > small > a{
     text-decoration: none;
@@ -180,6 +180,180 @@ footer > small > a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************** Media Query for  Mobile Design ****************************************************************/ 
+
+
+@media (max-width:400px){
+
+    #container{
+        font-size: 55%;
+        width: 100vw;    
+    }
+
+ 
+   
+/********************************************** Services ****************************************************************/ 
+#services > h1{
+    font-size: 3.1rem;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 20vh;
+    color:#0893e3;
+
+}
+
+.col{       
+    width: 100vw;
+    text-align: center;
+    margin: 1vw;
+    padding-bottom: 10vh;
+    border-right:none;
+    float:none;
+    clear: both;
+}
+
+.col>h3,i,p,a{
+    margin-bottom: 5vh;
+    padding: 2vw 5vw ;
+    
+    font-size: 5vw;
+}
+.col>h3{
+    font-size: 8vw;
+    margin-bottom: 1vh;
+    color: crimson;
+}
+.col>i{
+    
+    font-size: 3rem;
+}
+.col>a{
+    
+    padding:10px 18px;
+}
+
+
+/********************************   Navbar *************************************************/
+
+
+
+nav > a{
+    
+    font-size: 30px;
+   text-align: center;
+    padding: 3vh 0vw 1vh 19vw;
+    float: left;
+    margin-bottom: 1vh;
+
+}
+
+/**------------------------------  Menu  ------------------------- ***/
+
+
+
+#navbar > ul{
+
+    float: right;
+    list-style: none; 
+    margin: 0;
+}
+
+
+#navbar > ul> li{
+    display: inline-block;
+    line-height: 0px;
+    padding: 3.8vh 0.2vw;
+    margin:0 -2vw;
+}
+
+
+#navbar > ul:last-child{
+    padding-right: 2vw;
+}
+
+
+#navbar > ul> li>a{
+    text-decoration: none;
+   
+    font-size: 5.2vw;
+}
+
+
+
+
+
+
+
+
+
+/************************************  Customers  ***************************************/
+.customer > p{
+text-align: center;
+    padding-left: 2vw ;
+    padding-right: 2vw ;
+    width: 100%;
+    
+}
+
+.customer a{
+    
+    font-size: 1.4rem;
+}
+
+
+
+/********************************  footer  ***************************************/
+footer > small >a::before{
+    content: "\a";
+    white-space: pre;
+}
+
+footer > small >a:hover{
+    color:gold;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------Container--------------------------------------*/
+#container{
+
+    width: 100vw;
+    margin: auto auto;
+    margin-bottom:0px ;
+
+}
+}
 
 
 
